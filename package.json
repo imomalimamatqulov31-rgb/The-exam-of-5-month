@@ -1,0 +1,33 @@
+{
+  "name": "bugngi-dars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "converter-mb": "^1.1.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "file": "^0.2.2",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.1.5",
+    "nodemailer": "^7.0.13",
+    "shokhijakhon-error-handler": "^1.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "upload": "^1.3.2",
+    "uuid": "^13.0.0",
+    "winston": "^3.19.0"
+  }
+}

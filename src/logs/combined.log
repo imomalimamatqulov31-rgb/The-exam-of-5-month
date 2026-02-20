@@ -1,0 +1,4 @@
+{"level":"error","message":"CREATE_CATEGORY error: Category name is required","service":"user-service"}
+{"level":"warn","message":"LOGIN failed: user not found: Azizjon@gmail.com","service":"user-service"}
+{"level":"error","message":"LOGIN error: ClientError: Invalid email or password !","service":"user-service"}
+{"level":"error","message":"CREATE_CAR error: cars validation failed: category_id: Cast to ObjectId failed for value \"6997ff6af30a0464f24a8052\\n\" (type string) at path \"category_id\" because of \"BSONError\"","service":"user-service"}

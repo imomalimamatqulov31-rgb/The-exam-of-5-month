@@ -1,0 +1,16 @@
+{"level":"debug","message":"LOGIN attempt with data: {\"email\":\"shohijahonmusinkulov@gmail.com\",\"password\":\"shohijahon1212\"}","service":"user-service"}
+{"level":"debug","message":"LOGIN attempt with data: {\"email\":\"shohijahonmusinkulov@gmail.com\",\"password\":\"shohijahon1212\"}","service":"user-service"}
+{"level":"debug","message":"CREATE_CATEGORY attempt with data: {\"categroy_name\":\"Premier\"}","service":"user-service"}
+{"level":"error","message":"CREATE_CATEGORY error: Category name is required","service":"user-service"}
+{"level":"debug","message":"CREATE_CATEGORY attempt with data: {\"category_name\":\"Premier\"}","service":"user-service"}
+{"level":"debug","message":"CREATE_CATEGORY attempt with data: {\"category_name\":\"Chevrolet\"}","service":"user-service"}
+{"level":"debug","message":"REGISTER attempt with data: {\"firstname\":\"Azizjon\",\"lastname\":\"Mamamtqulov\",\"email\":\"Azizijon@gmail.com\",\"password\":\"aziz1212\"}","service":"user-service"}
+{"level":"debug","message":"VERIFY attempt with data: {\"email\":\"Azizijon@gmail.com\",\"otp\":\"172153\"}","service":"user-service"}
+{"level":"debug","message":"LOGIN attempt with data: {\"email\":\"Azizjon@gmail.com\",\"password\":\"aziz1212\"}","service":"user-service"}
+{"level":"warn","message":"LOGIN failed: user not found: Azizjon@gmail.com","service":"user-service"}
+{"level":"error","message":"LOGIN error: ClientError: Invalid email or password !","service":"user-service"}
+{"level":"debug","message":"LOGIN attempt with data: {\"email\":\"Azizijon@gmail.com\",\"password\":\"aziz1212\"}","service":"user-service"}
+{"level":"debug","message":"CREATE_CAR attempt with data: {\"car_name\":\"cobalt\",\"model\":\"chevrolet\",\"year\":\"2022\",\"color\":\"white\",\"distance\":\"20000\",\"gearbox\":\"Avtomat\",\"price\":\"12000\",\"category_id\":\"6997ff6af30a0464f24a8052\\n\"}","service":"user-service"}
+{"level":"error","message":"CREATE_CAR error: cars validation failed: category_id: Cast to ObjectId failed for value \"6997ff6af30a0464f24a8052\\n\" (type string) at path \"category_id\" because of \"BSONError\"","service":"user-service"}
+{"level":"debug","message":"CREATE_CAR attempt with data: {\"car_name\":\"cobalt\",\"model\":\"chevrolet\",\"year\":\"2022\",\"color\":\"white\",\"distance\":\"20000\",\"gearbox\":\"Avtomat\",\"price\":\"12000\",\"category_id\":\"6997ff6af30a0464f24a8052\"}","service":"user-service"}
+{"level":"debug","message":"CREATE_CAR attempt with data: {\"car_name\":\"cobalt\",\"model\":\"chevrolet\",\"year\":\"2022\",\"color\":\"white\",\"distance\":\"20000\",\"gearbox\":\"Avtomat\",\"price\":\"12000\",\"category_id\":\"6997ff6af30a0464f24a8052\"}","service":"user-service"}
