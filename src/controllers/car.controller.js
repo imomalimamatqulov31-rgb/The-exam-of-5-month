@@ -17,16 +17,7 @@ module.exports = {
      
         await createCarValidator.validateAsync(newCar, {abortEarly: false});
   
-    newCar.user_id = req.user.sub;
-
-     
-
-      
-
-          if(req.filename && req.files?.car_image){
-        await req.files.car_image.mv( path.join( process.cwd(), "uploads", "carPhotos", req.filename))
-         newCar.car_image = req.filename;
-      }
+  
        let insertCar =  await carModel.create(newCar);
         return res.status(201).json({ message: "Car created successfully", status: 201, insertCar });
         
